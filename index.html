@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample api data</title>
+
+<style>
+
+.inner{ 
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80%;
+
+}
+
+.innerinner{
+
+    font-family: 'Arial' ;
+    font-size: 80%;
+
+}
+
+.astrix{
+
+    color:red;
+
+}
+
+.tabrow{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.tabcol{
+
+    border: 1px solid black;
+
+}
+
+table, td, tr{
+
+    border-collapse: collapse;
+
+}
+.overall{
+
+    border: 1px solid black;
+    background-color: rgb(248, 253, 220);
+
+}
+
+.heading{
+
+    background-color: rgb(128, 7, 7);
+
+}
+
+.heading_font{
+
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.inner_heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.important{
+
+    color:orange;
+
+}
+
+.singlewoman{
+
+    color: rgb(155, 148, 148);
+
+}
+
+.nameinner{
+
+    font-family: 'Arial';
+    color: blue;
+
+}
+
+.namebox{
+
+    width: 250px;
+
+}
+
+.individualnames{
+
+    width: 105px;
+
+}
+
+.innertable{
+
+    border-collapse: collapse;
+
+}
+
+.pinclass{
+
+    font-style:italic;
+    color:rgb(136, 133, 133)
+
+}
+
+.aadhaar{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80%;
+    color:rgb(6, 6, 209)
+
+}
+
+.panfont{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.outer{
+
+    background-color: rgb(248, 253, 220);
+
+}
+
+.dsc{
+
+    font-family: 'Arial' ;
+    font-size: 80%;
+    color:brown;
+
+}
+
+.textbox{
+
+    font-size:18pt;
+    height:100px;
+    width:300px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form>
+
+<table class="overall">
+
+<!-- Heading -->
+<tr class="heading">
+
+    <td colspan="4">
+
+        <div class="heading_font">
+
+            <span>Request For New Pan Card Or/And Changes Or Correction In Pan Data</span><br>
+
+            <span class="inner_heading">Fields marked with 
+
+                <span class="astrix">*</span>(asterisk) 
+                are mandatory. To avoid mistake(s), please refer 
+                <span class="important"><u>guidelines</u></span>
+                and 
+                <span class="important"><u>instructions</u></span>
+
+            </span>
+
+        </div>
+
+    </td>
+
+</tr>
+
+<!-- row-1 start -->
+<tr class="tabrow">
+
+    <!-- row-1  col-1  start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-1  col-1  end -->
+
+    <!-- row-1 col-2 start -->
+    <td class="tabrow" colspan="3">
+
+    <label for="citizenyes" for="citizenno" class="inner" >
+
+            <span class="astrix">*</span>
+            Whether citizen of India&emsp;&emsp;&emsp;
+
+    </label>
+
+    <label class="innerinner" for="citizenyes">Yes</label>
+    <input type="radio" id="citizenyes" name="citizen_of_india" value="yes" required>
+
+    <label class="innerinner" for="citizenno">&emsp;No</label>
+    <input type="radio" id="citizenno" name="citizen_of_india" value="no">
+
+    </td>
+    <!-- row-1 col-2 end -->
+
+    </tr>
+    <!-- row-1 end -->
+
+<!-- row2 start -->
+<tr class="tabrow">
+
+    <!-- row-2 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-2 col-1 end -->
+
+    <!-- row-2 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+    <label for="pan" class="inner">
+
+            <span class="astrix">*</span>
+            Permanent Account Number(PAN)
+
+    </label>
+
+    <input type="text" id="pan" name="PAN" required>
+
+    </td>
+    <!-- row-2 col-2 end -->
+
+</tr>
+<!-- row-2 end -->
+
+<!-- row-3 start -->
+<tr class="tabrow">
+
+    <!-- row-3 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="name_details" name="checking_for_name_details"
+         value="filled" required>
+
+    </td>
+    <!-- row-3 col-1 end -->
+
+    <!-- row-3 col-2 start -->
+    <td class="tabcol" colspan="3" >
+
+        <label for="marital_status_of_man" for="married_woman" for="single_woman"
+        for="lastname" for="firstname" for="middlename" for="name_details" class="inner">
+            <span class="astrix">*</span>
+            1. Name
+        </label> </span>
+
+    </td>
+    <!-- row-3 col-2 end -->
+
+</tr>
+<!-- row-3 end -->
+
+<!-- row-4 start -->
+<tr class="tabrow">
+
+    <!-- row-4 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-4 col-1 end -->
+
+    <!-- row-4 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+            <label for="marital_status_of_man" for="married_woman" for="single_woman" 
+            class="inner">
+                Title &emsp;&emsp;
+            </label>
+
+            <label for="marital_status_of_man" class="innerinner">
+                Shri/Mr
+            </label>
+            <input type="radio" id="marital_status_of_man" name="gender_and_marital_status" 
+            value="married/single_man" required>
+
+            <label for="married_woman" class="innerinner">
+                &emsp;&emsp;&emsp;Smt./Mrs.
+            </label>
+            <input type="radio" id="married_woman" name= "gender_and_marital_status"
+            value="married_woman">
+
+            <label for="single_woman" class="innerinner">
+                &emsp;&emsp;&emsp;Kumari/Ms
+            </label>
+            <input type="radio" id="single_woman" name="gender_and_marital_status"
+             value="single_woman">
+            <label for="single_woman" class="singlewoman">
+                &emsp;M/s
+            </label>
+
+    </td>
+    <!-- row-4 col-2 end -->
+
+</tr>
+<!-- row-4 en -->
+
+<!-- row-5 start -->
+<tr class="tabrow">
+
+    <!-- row-5 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-5 col-1 end -->
+
+    <!-- row-5 col-2 start -->
+    <td class="tabcol" colspan=3>
+
+        <label for="lastname" class="inner">
+         LastName/surname &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label for="firstname" class="inner">
+         FirstName &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label for="middlename" class="inner">
+         Middle Name<br>
+        </label>
+
+        <input type="text" id="lastname" name="last_name" class="individualnames" required>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="firstname" name="first_name" class="individualnames" required>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="middlename" name="middle_name" class="individualnames" required>
+
+    </td>
+    <!-- row-5 col-2 end -->
+
+</tr>
+<!-- row-5 end-->
+
+<!-- row-6 start -->
+<tr class="tabrow">
+
+    <!-- row-6 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-6 col-1 end -->
+
+    <!-- row-6 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="correctname" class="inner">
+            <span class="astrix">*</span>
+            Name as you would like it printed on the card
+            <span class="nameinner">
+            (Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)
+            </span>
+        </label>
+
+    </td>
+    <!-- row-6 col-2 end -->
+
+</tr>
+<!-- row-6 end -->
+
+<!-- row-7 start -->
+<tr class="tabrow">
+
+    <!-- row-7 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-7 col-1 end -->
+
+    <!-- row-7 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <input type="text" id="correctname" name="Officialname" class="namebox" required>
+
+    </td>
+    <!-- row-7 col-2 end --->
+
+</tr>
+<!-- row-7 end -->
+
+<!-- row-8 start -->
+<tr class="tabrow">
+
+    <!-- row-8 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-8 col-1 end -->
+
+    <!-- row-8 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="status_of_mother_marital_status" for="father_firstname"
+            for="father_lastname" for="father_middlename" for="mother_firstname"
+            for="mother_lastname" for="mother_middlename" class="inner">
+            Details of Parents. 
+            <span class="nameinner">
+            (Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)
+            </span>
+        </label>
+
+    </td>
+    <!-- row-8 col-2 end -->
+
+</tr>
+<!-- row-8 end -->
+
+<!-- row-9 start -->
+<tr class="tabrow">
+
+    <!-- row-9 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-9 col-1 end -->
+
+    <!-- row-9 col-2 start -->
+    <td class="tabcol"> 
+
+        <label for="status_of_mother_marital_status" class="inner">
+            Whether is single parent and you wish and you wish to apply for PAN by furnishing 
+            the name of your mother only
+        </label>
+
+    </td>
+
+    <td class="tabcol" width="50%" colspan="2">
+
+        <label for="status_of_mother_marital_status" class="innerinner">
+        Yes
+        </label>
+        <input type=radio id="status_of_mother_marital_status"
+            name="status_of_mother_marital_status"
+            value="married" required>
+        <label for="status_of_mother_marital_status" class="innerinner">
+        No
+        </label>
+        <input type=radio id="status_of_mother_marital_status"
+            name="status_of_mother_marital_status"
+            value="unmarried" checked>
+
+    </td>
+
+</tr>
+<!-- row-9 end -->
+
+<!-- row-10 start-->
+<tr class="tabrow">
+
+    <!-- row-10 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="check_for_father_name_details" name="check_for_father_name"
+         value="checked" required>
+
+    </td>
+    <!-- row-10 col-1 end -->
+
+    <!-- row-10 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="father_firstname" for="father_middlename" for="father_lastname" 
+        for="check_for_father_name_details" class="inner">
+        <span class="astrix">*</span>
+        Father's Name
+        <span class="nameinner">(Mandatory field. Even married women should give father's 
+        name only)</span>
+        </label>
+
+    </td>
+    <!-- row-10 col-2 end-->
+
+</tr>
+<!-- row-10 end -->
+
+<!-- row-11 start -->
+<tr class="tabrow">
+
+    <!-- row-11 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-11 col-1 end -->
+
+    <!-- row-11 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="father_lastname" class="inner">
+            LastName/surname &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label for="father_firstname" class="inner">
+            FirstName &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </label>
+        <label for="father_middlename" class="inner">
+            Middle Name<br>
+        </label>
+
+        <input type="text" id="lastname" name="father_lastname" class="individualnames" required>
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="firstname" name="father_firstname" class="individualnames" required>
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+           &emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="middlename" name="father_middlename" class="individualnames" required>
+
+    </td>
+    <!-- row-11 col-2 end -->
+
+</tr>
+<!-- row-11 end -->
+
+<!-- row-12 start -->
+<tr class="tabrow">
+
+    <!-- row-12 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-12 col-1 end -->
+
+    <!-- row-12 col-2 start -->
+    <td class="tabcol" width="50%">
+
+        <label for="parent_name_on_card_father" for="parent_name_on_card_mother" class="inner">
+            <span class="astrix">*</span>
+            4. Select Parent name which is to be printed on the card<br>
+            <span class="nameinner">(Incase no option is provided then PAN card will be used
+                with father's name)
+            </span>
+        </label>
+
+    </td>
+    <!-- row-12 col-2 end -->
+
+    <!-- row-12 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label class="innerinner" for="parent_name_on_card_father">
+            Father Name
+        </label>
+        <input type="radio" id="parent_name_on_card_father" name="parent_name_on_card"
+        value="father">
+
+        <label class="innerinner" for="parent_name_on_card_mother" required>
+            Father Name
+        </label>
+        <input type="radio" id="parent_name_on_card_father" name="parent_name_on_card"
+        value="mother">
+
+    </td>
+    <!-- row-12 col-3 end -->
+
+</tr>
+<!-- row-12 end -->
+
+<!-- row-13 start -->
+<tr class="tabrow">
+
+    <!-- row-13 col-1 start -->
+    <td class="tabcol" >
+
+        <input type="checkbox" id="details_of_DOB_day_month_year" 
+        name="details_of_DOB_day_month_year" value="filled" required>
+
+    </td>
+    <!-- row-13 col-1 end -->
+
+    <!-- row-13 col-2 start -->
+    <td class="tabcol" width="50%">
+
+        <label for="details_of_DOB_day"  for="details_of_DOB_month" for="details_of_DOB_day_month_year"
+        for="details_of_DOB_year" class="inner">
+            <span class="astrix">*</span>
+            5. Date of Birth/Incorporation/Agreement/Partnership<br>
+            or Trust Deed/Formation of Body of Individuals/<br>
+            Association of Persons 
+        </label>
+
+    </td>
+    <!-- row-13 col-2 end -->
+
+    <!-- row-13 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label for="details_of_DOB_day" class="innerinner">
+            DD&emsp;&emsp;
+        </label>
+        <label for="details_of_DOB_month" class="innerinner">
+            MM&emsp;&emsp;
+        </label>
+        <label for="details_of_DOB_year" class="innerinner">
+            YYYY<br>
+        </label>
+
+        <select id="details_of_DOB_day" name="details_of_DOB_day" style="width:45px" required>
+            <option selected disabled>DD</option>
+            <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+            <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+            <option value="10">10</option><option value="11">11</option><option value="12">12</option>
+            <option value="13">13</option><option value="14">14</option><option value="14">14</option>
+            <option value="15">15</option><option value="16">16</option><option value="17">17</option>
+            <option value="18">18</option><option value="19">19</option><option value="20">20</option>
+            <option value="21">21</option><option value="22">22</option><option value="23">23</option>
+            <option value="24">24</option><option value="25">25</option><option value="26">26</option>
+            <option value="27">27</option><option value="28">28</option><option value="29">29</option>
+            <option value="30">30</option><option value="31">31</option>
+        </select>
+
+        <select id="details_of_DOB_month" name="details_of_DOB_month" style="width:45px" required>
+            <option selected disabled>MM</option>
+            <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+            <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+            <option value="10">10</option><option value="11">11</option><option value="12">12</option>
+        </select>
+
+        <input type="number" name="details_of_DOB_year" style="width:50px" required>
+
+    </td>
+    <!-- row-13 col-3 end -->
+
+</tr>
+<!-- row-13 end -->
+
+<!-- row-14 end -->
+<tr class="tabrow">
+
+    <!-- row-14 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="gender_of_applicant" name="gender_of_applicant"
+         value="filled" required>
+
+    </td>
+    <!-- row-14 col-1 start -->
+
+    <!-- row-14 col-2 start -->
+    <td class="tabcol">
+
+        <label for="gender_of_applicant_male" for="gender_of_applicant_female" for="gender_of_applicant"
+        for="gender_of_applicant_transgender" class="inner">
+        <span class="astrix">*</span>
+        6. Gender
+        </label>
+
+    </td>
+    <!-- row-14 col-2 end -->
+
+    <!-- row-14 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label for="gender_of_applicant_male" class="innerinner">
+            Male
+        </label>
+        <input type="radio" id="gender_of_applicant_male" name="gender_of_applicant" value="male"
+         required>
+
+         <label for="gender_of_applicant_female" class="innerinner">
+            &emsp;Female
+        </label>
+        <input type="radio" id="gender_of_applicant_female" name="gender_of_applicant" value="female">
+
+         <label for="gender_of_applicant_male" class="innerinner">
+            &emsp;Transgender
+        </label>
+        <input type="radio" id="gender_of_applicant_transgender" name="gender_of_applicant" 
+         value="transgender"> 
+
+    </td>
+    <!-- row-14 col-3 end -->
+
+</tr>
+<!-- row-14 start -->
+
+<!-- row-15 start -->
+<tr class="tabrow">
+
+    <!-- row-14 col-1 start-->
+    <td class="tabcol">
+
+        <input type="checkbox" id="photo_mismatch" name="photo_mismatch" value="filled" required>
+
+    </td>
+    <!-- row-14 col-1 end -->
+
+    <!-- row-14 col-2 start -->
+    <td class="tabrow" colspan="3">
+
+        <label for="photo_mismatch" class="inner">
+            &emsp;7. Photo Mismatch
+        </label>
+
+    </td>
+    <!-- row-14 col-2 end -->
+
+</tr>
+<!-- row-14 end -->
+
+<!-- row-15 start -->
+<tr class="tabrow">
+
+    <!-- row-15 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="signature_mismatch" name="signature_mismatch" 
+        value="filled" required>
+
+    </td>
+    <!-- row-15 col-1 end -->
+
+    <!-- row-15 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="signature_mismatch" class="inner">
+
+            &emsp;8. Signeture Mismatch
+
+        </label>
+
+    </td>
+    <!-- row-15 col-2 end -->
+
+</tr>
+<!-- row-15 end -->
+
+<!-- row-16 start -->
+<tr class="tabrow">
+
+    <!-- row-16 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="address_for_communication_details"
+        name="address_for_communication_details" value="filled" required>
+
+    </td>
+    <!-- row-16 col-1 end -->
+
+    <!-- row-16 col-2 start -->
+    <td class="tabcol">
+
+        <label class="inner" for="address_for_communication_details" for="address_type_residential"
+         for="address_type_office" for="office_name" for="flat_or_house_or_door_num" 
+         for="name_of_premises_building_village" for="road_street_lane_PO_details"
+         for="area_locality_taluka_subdivision" for="town_city_district" for="state_UT"
+         for="pin" for="country" for="zip">
+            <span class="astrix">*</span>9. Address for Communication
+        </label>
+
+    </td>
+    <!-- row-16 col-2 end -->
+
+    <!-- row-16 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label for="address_type_residential" class="innerinner">
+            Residential
+        </label>
+        <input type="radio" id="address_type_residential" name="address_type" value="Residential"
+        required>
+
+        <label for="address_type_office" for="office_name" class="innerinner">
+            &emsp;Office
+        </label>
+        <input type="radio" id="address_type_office" name="address_type" value="office">
+
+    </td>
+    <!-- row-16 col-3 end -->
+
+</tr>
+<!-- row-16 end -->
+
+<!-- row-17 start -->
+<tr class="tabcol">
+
+    <!-- row-17 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-17 col-1 end -->
+
+    <!-- row-17 col-2 start -->
+    <td class="tabcol">
+
+        <label for="office_name" class="inner">
+            Office Name
+            <span class="innerinner">(to be filled only in case of office address)</span>
+        </label>
+
+    </td>
+    <!-- row-17 col-2 end -->
+
+    <!-- row-17 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="office_name" name="office_name" style="width:200px">
+
+    </td>
+    <!-- row-17 col-3 end -->
+
+</tr>
+<!-- row-17 end -->
+
+<!-- row-18 start -->
+<tr class="tabrow">
+
+    <!-- row-18 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-18 col-1 end -->
+
+    <!-- row-18 col-2 start -->
+    <td class="tabcol">
+
+        <label for="flat_or_house_or_door_num" class="inner">
+            Flat/Door/Block No.
+        </label>
+
+    </td>
+    <!-- row-18 col-2 end -->
+
+    <!-- row-18 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="flat_or_house_or_door_num" name="flat_or_house_or_door_num"
+        required>
+
+    </td>
+    <!-- row-18 col-3 end -->
+
+</tr>
+<!-- row-18 end -->
+
+<!-- row-19 start -->
+<tr class="tabrow">
+
+    <!-- row-19 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-19 col-1 end -->
+
+    <!-- row-19 col-2 start -->
+    <td class="tabcol">
+
+        <label for="name_of_premises_building_village" class="inner">
+            Name of Premises/Building/Village
+        </label>
+
+    </td>
+    <!-- row-19 col-2 end -->
+
+    <!-- row-19 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="name_of_premises_building_village"
+        name="name_of_premises_building_village" required>
+
+    </td>
+    <!-- row-19 col-3 end -->
+
+</tr>
+<!-- row-19 end -->
+
+<!-- row-20 start -->
+<tr class="tabrow">
+
+    <!-- row-20 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-20 col-1 start -->
+
+    <!-- row-20 col-2 start -->
+    <td class="tabcol">
+
+        <label for="road_street_lane_PO_details" class="inner">
+            Road/Lane/Post Office
+        </label>
+
+    </td>
+    <!-- row-20 col-2 end -->
+
+    <!-- row-20 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="road_street_lane_PO_details" name="road_street_lane_PO_details"
+        required>
+
+    </td>
+    <!-- row-20 col-3 end -->
+
+</tr>
+<!-- row-20 end -->
+
+<!-- row-21 start -->
+<tr class="tabrow">
+
+    <!-- row-21 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-21 col-1 end -->
+
+    <!-- row-21 col-2 start -->
+    <td class="tabcol">
+
+        <label for="area_locality_taluka_subdivision" class="inner">
+            Area/Locality/Taluka/Sub-Division
+        </label>
+
+    </td>
+    <!-- row-21 col-2 end -->
+
+    <!-- row-21 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="area_locality_taluka_subdivision" name="area_locality_taluka_subdivision"
+        required>
+
+    </td>
+    <!-- row-21 col-3 end -->
+
+</tr>
+<!-- row-21 end -->
+
+<!-- row-22 start -->
+<tr class="tabrow">
+
+    <!-- row-22 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-22 col-1 end -->
+
+    <!-- row-22 col-2 start -->
+    <td class="tabcol">
+
+        <label for="town_city_district" class="inner">
+            Town/City/District
+        </label>
+
+    </td>
+    <!-- row-22 col-2 end -->
+
+    <!-- row-22 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="town_city_district" name="town_city_district" required>
+
+    </td>
+    <!-- row-22 col-3 end -->
+
+</tr>
+<!-- row-22 end -->
+
+<!-- row-23 start -->
+<tr class="tabrow">
+
+    <!-- row-23 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-23 col-1 end -->
+
+    <!-- row-23 col-2 start -->
+    <td class="tabcol">
+
+        <label for="state_UT" class="inner">
+            State/Union Territory
+        </label>
+
+    </td>
+    <!-- row-23 col-2 end -->
+
+    <!-- row-23 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <select id="state_UT" name="state_UT" class="innerinner" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="Tn">tn</option><option value="ap">ap</option><option value="ka">ka</option>
+            <option value="ke">ke</option><option value="po">po</option><option value="go">go</option>
+            <option value="mh">mh</option><option value="mp">mp</option><option value="up">up</option>
+            <option value="kp">kp</option><option value="sp">sp</option><option value="rs">rs</option>
+        </select>
+
+    </td>
+    <!-- row-23 col-3 end -->
+
+</tr>
+<!-- row-23 end -->
+
+<!-- row-24 start -->
+<tr class="tabrow">
+
+    <!-- row-24 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-24 col-1 end -->
+
+    <!-- row-24 col-2 start -->
+    <td class="tabcol">
+
+        <label for="pin" class="inner">
+            PIN
+            <span class="pinclass">(indicating PIN is mandatory)</span>
+        </label>
+
+    </td>
+    <!-- row-24 col-2 end -->
+
+    <!-- row-24 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="pin" name="pin" style="width:55px" required>
+
+    </td>
+    <!-- row-24 col-3 end -->
+
+</tr>
+<!-- row-24 end -->
+
+<!-- row-25 start -->
+<tr class="tabrow">
+
+    <!-- row-25 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-25 col-1 end -->
+
+    <!-- row-25 col-2 start -->
+    <td class="tabcol">
+
+        <label for="country" class="inner">
+            Country
+        </label>
+
+    </td>
+    <!-- row-25 col-2 end -->
+
+    <!-- row-25 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <select id="country" name="country" class="innerinner" style="width:75%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="Tn">tn</option><option value="ap">ap</option><option value="ka">ka</option>
+            <option value="ke">ke</option><option value="po">po</option><option value="go">go</option>
+            <option value="mh">mh</option><option value="mp">mp</option><option value="up">up</option>
+            <option value="kp">kp</option><option value="sp">sp</option><option value="rs">rs</option>
+        </select>
+
+    </td>
+    <!-- row-25 col-3 end -->
+
+</tr>
+<!-- row-25 end -->
+
+<!-- row-26 start -->
+<tr class="tabrow">
+
+    <!-- row-26 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-26 col-1 end -->
+
+    <!-- row-26 col-2 start -->
+    <td class="tabcol">
+
+        <label for="zip" class="inner">
+            Zip
+        </label>
+
+    </td>
+    <!-- row-26 col-2 end -->
+
+    <!-- row-26 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="zip" name="zip" style="width:55px" required>
+
+    </td>
+    <!-- row-26 col-3 end -->
+
+</tr>
+<!-- row-26 end -->
+
+<!-- row-27 start -->
+<tr class="tabcol">
+
+    <!-- row-27 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="update_of_address_proof"
+        name="update_of_address_proof" value="checked">
+
+    </td>
+    <!-- row-27 col-1 end -->
+
+    <!-- row-27 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="update_of_address_proof" class="inner">
+            10. If you desire to update your other address, give required details 
+            & <u>Submit proof of other address also.</u>
+        </label>
+
+    </td>
+    <!-- row-27 col-2 end -->
+
+</tr>
+<!-- row-27 end -->
+
+<!-- row-28 start -->
+<tr class="tabrow">
+
+    <!-- row-28 col-1 start -->
+    <td class="tabcol" rowspan="3">
+
+        <input type="checkbox" id="telephone_details" name="telephone_details" 
+        value="checked" required>
+
+    </td>
+    <!-- row-28 col-1 end -->
+
+    <!-- row-28 col-2 start -->
+    <td class="tabcol" rowspan="3">
+
+        <label for="telephone_details" for="ISD" for="number_type_mobile" 
+        for="number_type_tele" for="area_std_code_telephone"
+        for="area_std_code_mobile" class="inner">
+            <span class="astrix">*</span>
+            11. Telephone No.<br>
+            <span class="innerinner">(Country code is compulsory)</span>
+        </label>
+
+    </td>
+    <!-- row-28 col-2 end -->
+
+    <!-- row-28 col-3 start -->
+    <td class="tabcol" colspan="3">
+
+        <label class="innerinner" for="ISD">
+            Country code(ISD code)
+        </label>
+        <select id="ISD" name="ISD" class="innerinner" style="width:83%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="Tn">tn</option><option value="ap">ap</option><option value="ka">ka</option>
+            <option value="ke">ke</option><option value="po">po</option><option value="go">go</option>
+            <option value="mh">mh</option><option value="mp">mp</option><option value="up">up</option>
+            <option value="kp">kp</option><option value="sp">sp</option><option value="rs">rs</option>
+        </select>
+
+    </td>
+    <!-- row-28 col-3 end -->
+
+</tr>
+<!-- row-28 end -->
+
+<!-- row 28.1(telephone) start -->
+<tr class="tabrow">
+
+    <!-- row-28.1(telephone) col-4 start -->
+    <td class="tabcol">
+
+        <input type="radio" id="number_type_mobile" name="number_type" value="mobile" required>
+        <label for="number_type" class="innerinner">
+            Mobile No.
+        </label>
+
+    </td>
+    <!-- row-28.1(telephone) col-4 end -->
+
+    <!-- row-28.1(telephone) col-5 start -->
+    <td class="tabcol">
+
+        <input type="radio" id="number_type_tele" name="number_type" value="telephone" required>
+        <label for="number_type" class="innerinner">
+            Telephone No.
+        </label>
+
+    </td>
+    <!-- row-28.1(telephone) col-4 end -->
+
+</tr>
+<!-- row-28.1(telephone) start -->
+
+<!-- row 28.2(telephone) start -->
+<tr class="tabrow">
+
+    <!-- row-28.2(telephone) col-6 start -->
+    <td class="tabcol">
+
+        <label for="area_std_code_mobile" class="innerinner">
+            Area/STD code<br>
+        </label>
+        <input type="text" id="area_std_code_mobile" name="area_std_code_mobile" style="width:90px"
+        required>
+
+    </td>
+    <!-- row-28.2(telephone) col-6 end -->
+
+    <!-- row-28.2(telephone) col-7 start -->
+    <td class="tabcol">
+
+        <label for="area_std_code_telephone" class="innerinner">
+            Area/STD code<br>
+        </label>
+        <input type="text" id="area_std_code_telephone" name="area_std_code_telephone" 
+        style="width:90px" required>
+
+    </td>
+    <!-- row-28.2(telephone) col-7 end -->
+
+</tr>
+<!-- row 28.2(telephone) end -->
+
+<!-- row-29 start -->
+<tr class="tabrow">
+
+    <!-- row-29 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-29 col-1 end -->
+
+    <!-- row-29 col-2 start -->
+    <td class="tabcol">
+
+        <label for="email_id" class="inner">
+            E-mail ID 
+        </label>
+
+    </td>
+    <!-- row-29 col-2 end -->
+
+    <!-- row-29 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="email" id="email_id" name="email_id" required>
+
+    </td>
+    <!-- row-29 col-3 end -->
+
+</tr>
+<!-- row-29 end -->
+
+<!-- row-30 start -->
+<tr class="tabrow">
+
+    <!-- row-30 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-30 col-1 end -->
+
+    <!-- row-30 col-2 start -->
+    <td class="tabcol">
+
+        <label for="aadhaar" for="EID" class="innerinner">
+            In case of a citizen of India, then
+        </label>
+
+    </td>
+    <!-- row-30 col-2 end -->
+
+    <!-- row 30 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="radio" id="aadhaar" name="aadhaar_or_EID" value="aadhaar" required>
+        <label for="aadhaar" class="innerinner">
+            AADHAAR&emsp;
+        </label>
+        <input type="radio" id="EID" name="aadhaar_or_EID" value="EID">
+        <label for="EID" class="innerinner">
+            EID
+        </label>
+
+    </td>
+    <!-- row-30 col-3 end -->
+
+</tr>
+<!-- row-30 end -->
+
+<!-- row-31 start -->
+<tr class="tabcol">
+
+    <!-- row-31 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="AADHAAR_number_filling" name="AADHAAR_number_filling"
+         value="checked" required>
+
+    </td>
+    <!-- row-31 col-1 end -->
+
+    <!-- row-31 col-2 start -->
+    <td class="tabcol">
+
+        <label for="AADHAAR_number_filling" for="AADHAAR_number" class="inner">
+            <span class="astrix">*</span>
+            12. AADHAAR NUMBER :
+        </label>
+
+    </td>
+    <!-- row-31 col-2 end -->
+
+    <!-- row-31 col-3 start -->
+    <td class="tabcol" colspan="3">
+
+        <input type="text" id="AADHAAR_number" name="AADHAAR_number" style="width:17%" required><br>
+        <label for="AADHAAR_number" class="aadhaar">
+            Incase AADHAAR number is provided,<br>
+            then proof of AADHAAR along with the supporting documents is to be submitted to NSDL
+        </label>
+
+    </td>
+    <!-- row-31 col-2 end -->
+
+</tr>
+<!-- row-31 end -->
+
+<!-- row-32 start -->
+<tr class="tabrow">
+
+    <!-- row-32 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-32 col-1 end -->
+
+    <!-- row-32 col-2 start -->
+    <td class="tabcol">
+
+        <label for="name_on_aadhaar" class="inner">
+            <span class="astrix">*</span>
+        </label>
+        <label for="name_on_aadhaar" class="innerinner">
+            Name as per AADHAAR letter<br>
+            or<br>as per the enrollment ID of AADHAAR application form
+        </label>
+
+    </td>
+    <!-- row-32 col-2 end -->
+
+    <!-- row-32 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="name_on_aadhaar" name="name_on_aadhaar" style="width:80%" required>
+
+    </td>
+    <!-- row-32 col-3 end -->
+
+</tr>
+<!-- row-32 end -->
+
+<!-- row-33 start -->
+<tr class="tabrow">
+
+    <!-- row-33 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-33 col-1 end -->
+
+    <!-- row-33 col-2 start -->
+    <td class="tabcol">
+
+        <label for="gstn" class="inner">
+            13. GSTN
+        </label>
+
+    </td>
+    <!-- row-33 col-2 end -->
+
+    <!-- row-33 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <input type="text" id="gstn" name="gstn" style="width:20%" required>
+
+    </td>
+    <!-- row-33 col-3 end -->
+
+</tr>
+<!-- row-33 end -->
+
+<!-- row-34 start -->
+<tr class="tabrow">
+
+    <!-- row-34 col-1 start -->
+    <td class="tabcol">
+
+        <input type="checkbox" id="other_pan_checking" name="other_pan_checking" value="checked" required>
+
+    </td>
+    <!-- row-34 col-1 end -->
+
+    <!-- row-34 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="pan1" for="pan2" for="pan3" for="pan4" for="other_pan_checking" class="inner">
+            14. Mention other Permanent Account Numbers (PANs) if any,inadvertently allotted to you.
+            <u>Submit proof of surrendered PAN(s) along with the application</u>
+        </label>
+
+    </td>
+    <!-- row-34 col-2 end -->
+
+</tr>
+<!-- row-34 end -->
+
+<!-- row-35 start -->
+<tr class="tabrow">
+
+    <!-- row-35 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-35 col-1 end -->
+
+    <!-- row-35 col-2 start -->
+    <td class="tabcol">
+
+        <label for="pan1" class="inner">
+            PAN1
+        </label>
+        <input type="text" id="pan1" name="pan1" required>
+
+    </td>
+    <!-- row-35 col-2 end -->
+
+    <!-- row-35 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label for="pan2" class="inner">
+            PAN2
+        </label>
+        <input type="text" id="pan2" name="pan2" required>
+
+    </td>
+    <!-- row-35 col-3 end -->
+
+</tr>
+<!-- row-35 end -->
+
+<!-- row-36 start -->
+<tr class="tabrow">
+
+    <!-- row-36 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-36 col-1 end -->
+
+    <!-- row-36 col-2 start -->
+    <td class="tabcol">
+
+        <label for="pan1" class="inner">
+            PAN3
+        </label>
+        <input type="text" id="pan3" name="pan3" required>
+
+    </td>
+    <!-- row-36 col-2 end -->
+
+    <!-- row-36 col-3 start -->
+    <td class="tabcol" colspan="2">
+
+        <label for="pan4" class="inner">
+            PAN4
+        </label>
+        <input type="text" id="pan4" name="pan4" required>
+
+    </td>
+    <!-- row-36 col-3 end -->
+
+</tr>
+<!-- row-36 end -->
+
+<!-- row-37 start -->
+<tr class="tabrow">
+
+    <!-- row-37 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-37 col-1 end -->
+
+    <!-- row-37 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="a" class="inner">
+            15. Verification
+        </label>
+
+    </td>
+    <!-- row-37 col-2 end -->
+
+</tr>
+<!-- row-37 end -->
+
+<!-- row-38 stat -->
+<tr class="tabrow">
+
+    <!-- row-38 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-38 col-1 end -->
+
+    <!-- row-38 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="Verification_name" class="innerinner">
+            I/We
+        </label>
+        <input type="text" id="Verification_name" name="Verification_name" style="width:40%" required>
+        <label for="Verification_name" class="innerinner">
+            ,the applicant,in the capacity of 
+        </label>
+        <select id="Verification_name" name="Verification_name" class="innerinner" style="width:16%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="dontknow">dk</option>
+        </select>
+        <span class="innerinner">
+            do hereby declare that what is stated above is true to the best of my information and belief.<br>
+        </span>
+        <label for="no_of_documents" class="innerinner">
+            I have enclosed 
+        </label>
+        <input type="text" id="no_of_documents" for="no_of_documents" style="width: 3%" required>
+        <label for="no_of_documents" class="innerinner">
+            (number of documents) in support of proposed changes/corrections
+        </label>
+
+    </td>
+    <!-- row-38 col-2 end -->
+
+</tr>
+<!-- row-38 end -->
+
+<!-- row-39 start -->
+<tr class="tabrow">
+
+    <!-- row-39 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-39 col-1 end -->
+
+    <!-- row-39 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="place" class="innerinner">
+            place&emsp;
+        </label>
+        <input type="text" id="place" name="place" required>
+
+    </td>
+    <!-- row-39 col-2 end -->
+
+</tr>
+<!-- row-39 end -->
+
+<!-- row-40 start -->
+<tr class="tabrow">
+
+    <!-- row-40 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-40 col-1 end -->
+
+    <!-- row-40 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <span class="innerinner">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DD-MM-YYYY<br>
+            Verified today, the 25 -02 -2021
+        </span>
+
+    </td>
+    <!-- row-40 col-2 end -->
+
+</tr>
+<!-- row-40 end -->
+
+<!-- row-41 start -->
+<tr class="tabrow">
+
+    <!-- row-41 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-41 col-1 start -->
+
+    <!-- row-41 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="proof_of_identity" class="innerinner">
+            I/We have enclosed<br>
+        </label>
+        <select id="proof_of_identity" class="innerinner" name="proof_of_identity" style="width:95%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="dontknow">dk</option>
+        </select>
+        <label for="proof_of_identity" class="innerinner">
+            as proof of identity,
+        </label>
+
+        <select id="proof_of_address" class="innerinner" name="proof_of_address" style="width:75%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="dontknow">dk</option>
+        </select>
+        <label for="proof_of_address" class="innerinner">
+            as proof of address,
+        </label>
+
+        <select id="proof_of_dob" class="innerinner" name="proof_of_dob" style="width: 85%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="dontknow">dk</option>
+        </select>
+        <label for="proof_of_dob" class="innerinner">as proof of date pf birth<br>and</label>
+
+        <select id="proof_of_PAN" class="innerinner" name="proof_of_PAN" style="width:15%" required>
+            <option selected disabled>--Please Select--</option>
+            <option value="dontknow">dk</option>
+        </select>
+        <label for="proof_of_PAN" class="innerinner">
+            as proof of PAN allotted.
+        </label>
+
+    </td>
+    <!-- row-41 col-2 end -->
+
+</tr>
+<!-- row-41 end -->
+
+<!-- row-42 start -->
+<tr class="tabrow">
+
+    <!-- row-42 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-42 col-1 end -->
+
+    <!-- row-42 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="physical_PAN" for="e_PAN" class="inner">
+            Whether you wish to have?&emsp;&emsp;&emsp;
+        </label>
+
+        <input type="radio" id="physical_PAN" name="type_of_PAN" value="physical_PAN" required>
+        <label for="physical_PAN" class="innerinner">
+            Physical PAN Card & e-PAN card&emsp;
+        </label>
+        <input type="radio" id="e_PAN" name="type_of_PAN" value="e_PAN">
+        <label for="physical_PAN" class="innerinner">
+            only e-PAN card&emsp;
+        </label>
+        <span class="inner">
+            <u class="inner" style="font-size:100%;">Fees Applicable</u>
+        </span>
+
+    </td>
+    <!--  row-42 col-2 end -->
+
+</tr>
+<!-- row-42 end -->
+
+<!-- row-43 start -->
+<tr class="tabrow">
+
+    <!-- row-43 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-43 col-1 end -->
+
+    <!-- row-43 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <span class="inner">
+            Other Details
+        </span>
+
+    </td>
+    <!-- row-43 col-2 end -->
+
+</tr>
+<!-- row-43 end -->
+
+<!-- row-44 start -->
+<tr class="tabrow">
+
+    <!-- row-44 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-44 col-1 end -->
+
+    <!-- row-44 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="dp_id" for="client_id" class="inner">
+            1. Depository Account Details
+        </label>
+
+    </td>
+    <!-- row-44 col-2 end -->
+
+</tr>
+<!-- row-44 end -->
+
+<!-- row-45 start -->
+<tr class="tabrow">
+
+    <!-- row-45 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-45 col-1 end -->
+
+    <!-- row-45 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="dp_id" class="inner">
+            DP ID:
+        </label>
+        <input type="text" id="dp_id" name="dp_id" style="width:6%" required>
+        <label for="client_id" class="inner">
+            &emsp;Client ID:
+        </label>
+        <input type="text" id="client_id" name="client_id" style="width:6%" required>
+
+    </td>
+    <!-- row-45 col-2 end -->
+
+</tr>
+<!-- row-45 end -->
+
+<!-- row-46 start -->
+<tr class="tabrow">
+
+    <!-- row-46 col-1 start -->
+    <td class="tabcol">
+
+    </td>
+    <!-- row-46 col-1 end -->
+
+    <!-- row-46 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="online_payment" class="inner">
+            1. Payment Details
+        </label>
+
+    </td>
+    <!-- row-46 col-2 end -->
+
+</tr>
+<!-- row-46 end -->
+
+<!-- row-47 start -->
+<tr class="tabrow">
+
+    <!-- row-47 col-1 start -->
+    <td class="tabcol">
+
+        <input type="radio" id="online_payment" name="online_payment" value="yes" required>
+
+    </td>
+    <!-- row-47 col-1 end -->
+
+    <!-- row-47 col-2 start -->
+    <td class="tabcol" colspan="3">
+
+        <label for="online_payment" class="inner">
+            Online Payment
+        </label>
+
+    </td>
+    <!-- row-47 col-2 end -->
+
+</tr>
+<!-- row-47 end -->
+
+</table>
+
+
+<div class="outer">
+
+    <!-- row-48 start -->
+
+        <label for="paperless_pan" for="paper_pan" class="panfont">
+            For Paperless PAN Application:
+        </label>
+        <input type="radio" id="paper_pan" name="paperless_pan" value="yes" required>
+        <label for="paper_pan" class="panfont">
+            Yes
+        </label>
+        <input type="radio" id="paperless_pan" name="paperless_pan" value="no">
+        <label for="papelessr_pan" class="panfont">
+            No<br>
+        </label>
+
+    <!-- row-48 end -->
+
+    <!-- row-49 start -->
+
+    <input type="radio" id="dsc_guidelines" name="dsc_guidelines" value="yes" checked>
+    <label for="dsc_guidelines" class="innerinner">
+        DSC
+    </label>
+    <select id="proof_of_PAN" class="innerinner" name="proof_of_PAN" style="width:18%" required>
+        <option selected disabled>--Select--</option>
+        <option value="dontknow">dk</option>
+    </select>
+    <label for="dsc_guidelines" class="dsc">
+        &emsp;<u>Guidelines for DSC user</u><br>
+    </label>
+
+    <!-- row-49 end -->
+
+    <!-- row-50 start -->
+
+    <label for="photo_file" class="innerinner">
+        Upload Photo&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    </label>
+    <input type="file" id="photo_file" name="photo_file" required>
+
+    <label for="signature" class="innerinner">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        Upload Signature&emsp;
+    </label>
+    <input type="file" id="photo_file" name="photo_file" required>
+
+    <!-- row-50 end -->
+
+    <!-- row-51 start -->
+
+    <button type="button" class="innerinner" name="fetch_from_digilocker"
+    value="fetched">Fetch from Digilocker</button><br><br>
+
+    <!-- row-51 end -->
+
+    <!-- row-52 start -->
+
+    <label for="photo_details" class="innerinner">
+        Already Uploded Photo:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    </label>
+    <input type="text" id="photo_details" name="photo_details" style="width:18%" required><br><br>
+
+    <!-- row-52 end -->
+
+    <!-- row-53 start -->
+
+    <label for="signature_details" class="innerinner">
+        Already Uploded SIGNATURE:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    </label>
+    <input type="text" id="signature_details" name="signature_details" style="width:14%" required><br><br>
+
+    <!-- row-53 end -->
+
+    <!-- row-54 start -->
+
+    <label for="document_details" class="innerinner">
+        Already Uploded DOCUMENTS:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+    </label>
+    <input type="text" id="document_details" name="document_details" class="textbox" required><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+
+    <!-- row- 54 end -->
+
+    <!-- row- 55 start -->
+
+    <input type="submit" value="submit"><br><br>
+
+    <!-- row-55 end -->
+
+    <!-- row 56 start -->
+
+    <hr><br>
+
+    <!-- row-56 end -->
+
+</div>
+
+</form>
+
+</body>
+
+</html>
